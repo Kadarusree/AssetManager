@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AssetManager</string>
+
+
+    <string name="audit">AUDIT</string>
+    <string name="search">SEARCH</string>
+    <string name="register">REGISTER/DISPOSE</string>
+    <string name="transfer">TRANSFER OUT/IN</string>
+    <string name="checkout">CHECK OUT/IN</string>
+    <string name="presence">VERIFY PRESENCE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="logout">LOGOUT</string>
+
+    <string name="asset_search">ASSET SEARCH</string>
+    <string name="asset_inquirey">ASSET INQUIRY</string>
+
+
+    <string name="transfer_out">TRANSFER OUT</string>
+    <string name="transfer_in">TRANSFER IN</string>
+
+    <string name="check_out">CHECK OUT</string>
+    <string name="check_in">CHECK IN</string>
+
+
+    <string name="add_asset">ADD NEW ASSET</string>
+    <string name="affix_labels">AFFIX LABELS</string>
+    <string name="dispose">ASSET DISPOSAL</string>
+
+
+</resources>
