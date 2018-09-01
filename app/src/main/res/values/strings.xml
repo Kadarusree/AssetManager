@@ -10,6 +10,8 @@
     <string name="presence">VERIFY PRESENCE</string>
     <string name="settings">SETTINGS</string>
     <string name="logout">LOGOUT</string>
+    <string name="confirm_logout">CONFIRM LOGOUT?</string>
+
 
     <string name="asset_search">ASSET SEARCH</string>
     <string name="asset_inquirey">ASSET INQUIRY</string>
@@ -25,6 +27,21 @@
     <string name="add_asset">ADD NEW ASSET</string>
     <string name="affix_labels">AFFIX LABELS</string>
     <string name="dispose">ASSET DISPOSAL</string>
+
+
+    <string name="rfid_setup">RFID SETUP</string>
+    <string name="update_default">UPDATE DEFAULT</string>
+    <string name="erase_database">ERASE DATABASE</string>
+    <string name="printer_setup">PRINTER SETUP</string>
+    <string name="sync_setup">SYNC SETUP</string>
+
+
+    
+    <string name="asset_audit">ASSET AUDIT</string>
+    <string name="loctaion_audit">LOCATION AUDIT</string>
+    <string name="express_audit">EXPRESS AUDIT</string>
+
+    <string name="available_audits">AVAILABLE AUDITS</string>
 
 
 </resources>
