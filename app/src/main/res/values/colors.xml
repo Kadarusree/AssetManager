@@ -34,4 +34,7 @@
     <color name="title">#777777</color>
 
     <color name="blue">#0A88A4</color>
+
+
+    <color name="transparent">#00000000</color>
 </resources>

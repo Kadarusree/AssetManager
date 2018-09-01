@@ -1,6 +1,9 @@
 package com.sreekanth.assetmanager;
 
+import android.app.AlertDialog;
+
 import android.app.Dialog;
+import android.support.v7.app.*;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     Dialog d;
     TextView tv_header;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         d = new Dialog(this);
+        d.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT,WindowManager.LayoutParams.WRAP_CONTENT);
+        d.getWindow().setBackgroundDrawableResource(R.color.transparent);
         tv_header = findViewById(R.id.tv_header);
 
         String text = "<font color=#156177>ASSET</font> <font color=#ffffff>VISIBILITY</font>";
