@@ -1,13 +1,11 @@
 package com.sreekanth.assetmanager;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class Settings extends AppCompatActivity {
+public class TransferIn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,11 +13,6 @@ public class Settings extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_settings);
-
-    }
-
-    public void updateDefault(View view) {
-        startActivity(new Intent(getApplicationContext(),UpdateSettings.class));
+        setContentView(R.layout.activity_transfer_in);
     }
 }

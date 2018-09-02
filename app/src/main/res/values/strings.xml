@@ -19,9 +19,16 @@
 
     <string name="transfer_out">TRANSFER OUT</string>
     <string name="transfer_in">TRANSFER IN</string>
+    <string name="transfer_out_details">Transfer Out Details</string>
+    <string name="transfer_in_details">Transfer In Details</string>
+
 
     <string name="check_out">CHECK OUT</string>
     <string name="check_in">CHECK IN</string>
+    <string name="check_out_details">Check-Out Details</string>
+
+    <string name="update"> UPDATE</string>
+    <string name="save"> SAVE</string>
 
 
     <string name="add_asset">ADD NEW ASSET</string>
@@ -36,12 +43,76 @@
     <string name="sync_setup">SYNC SETUP</string>
 
 
-    
     <string name="asset_audit">ASSET AUDIT</string>
     <string name="loctaion_audit">LOCATION AUDIT</string>
     <string name="express_audit">EXPRESS AUDIT</string>
 
     <string name="available_audits">AVAILABLE AUDITS</string>
 
+    <string name="refresh">REFRESH</string>
+    <string name="process">PROCESS</string>
+    <string name="clear">CLEAR</string>
+    <string name="cancel">CANCEL</string>
+    <string name="sort">SORT</string>
+    <string name="grid">GRID</string>
+
+
+    <string name="scan_assets">\t\tPlease Scan Assets \t\t</string>
+
+
+    <!--Transfer Out Screen Related-->
+    <string name="to1">Transfer To</string>
+    <string name="to2">Transfer-our ID</string>
+    <string name="to3">Transfer Reason</string>
+    <string name="to4">Delv Employee</string>
+    <string name="to5">Ref. Trans. Out ID</string>
+    <string name="to6">Transfer Type</string>
+
+    <array name="transfer_types">
+        <item>Permanent</item>
+        <item>Temporary</item>
+    </array>
+
+    <array name="transfer_reasons">
+        <item>Select</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </array>
+
+    <array name="transfer_ids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+
+    <array name="transfer_to">
+        <item>Al-Rajhi Investment</item>
+        <item>A2</item>
+        <item>B</item>
+        <item>C</item>
+    </array>
+    <string name="next">NEXT</string>
+    <string name="pending_transfers">VIEW PENDING TRANSFERS</string>
+
+
+    <!--Check out Screen-->
+    <string name="user">USER</string>
+    <string name="roll">Roll</string>
+    <string name="vendor">Vendor</string>
+
+    <string name="badge_id">Badge ID</string>
+    <string name="select_person">Select Person</string>
+    <string name="to_location">To Location</string>
+    <string name="check_out_type">Check Out Type</string>
+    <string name="print_receipt">Print Check-Out Receipt</string>
+    <string name="print_receipt_in">Print Check-In Receipt</string>
+    <string name="title_activity_asset_audit">AssetAudit</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>

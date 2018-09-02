@@ -17,7 +17,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".Settings" />
-        <activity android:name=".LocationAudit"></activity>
+        <activity android:name=".LocationAudit" />
+        <activity android:name=".ExpressAudit" />
+        <activity android:name=".AssetSearch" />
+        <activity android:name=".TransferOut" />
+        <activity android:name=".TransferIn" />
+        <activity android:name=".CheckOut" />
+        <activity android:name=".CheckIn" />
+        <activity android:name=".AssetAudit" />
+        <activity android:name=".UpdateSettings"></activity>
     </application>
 
 </manifest>

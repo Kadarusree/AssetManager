@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         d = new Dialog(this);
-        d.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT,WindowManager.LayoutParams.WRAP_CONTENT);
+        d.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
         d.getWindow().setBackgroundDrawableResource(R.color.transparent);
         tv_header = findViewById(R.id.tv_header);
 
@@ -38,11 +38,46 @@ public class MainActivity extends AppCompatActivity {
 
     public void searchClick(View view) {
         d.setContentView(R.layout.dialog_search);
+        Button asset_saerch = d.findViewById(R.id.btn_asset_search);
+        Button asset_inquiry = d.findViewById(R.id.btn_asset_inquiry);
+
+        asset_inquiry.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        asset_saerch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), AssetSearch.class));
+
+            }
+        });
         d.show();
     }
 
     public void transfer(View view) {
         d.setContentView(R.layout.dialog_transfer);
+        Button btn_transfer_out = d.findViewById(R.id.btn_transfer_out);
+        Button btn_transfer_in = d.findViewById(R.id.btn_transfer_in);
+
+        btn_transfer_in.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), TransferIn.class));
+
+            }
+        });
+        btn_transfer_out.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), TransferOut.class));
+
+            }
+        });
+
         d.show();
     }
 
@@ -62,18 +97,57 @@ public class MainActivity extends AppCompatActivity {
 
     public void checkout(View view) {
         d.setContentView(R.layout.dialog_checkout);
+        Button check_out = d.findViewById(R.id.btn_check_out);
+        Button check_in = d.findViewById(R.id.btn_check_in);
+
+        check_out.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CheckOut.class));
+
+            }
+        });
+        check_in.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), CheckIn.class));
+            }
+        });
         d.show();
     }
 
     public void audit(View view) {
         d.setContentView(R.layout.dialog_audit);
         Button locationAudit = d.findViewById(R.id.btn_location_audit);
+        Button assetAudit = d.findViewById(R.id.btn_asset_audit);
+        Button expressAudit = d.findViewById(R.id.btn_express_audit);
+
         locationAudit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), LocationAudit.class));
             }
         });
+        expressAudit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ExpressAudit.class));
+            }
+        });
+        assetAudit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), AssetAudit.class));
+            }
+        });
         d.show();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (d.isShowing()){
+            d.dismiss();
+        }
     }
 }
