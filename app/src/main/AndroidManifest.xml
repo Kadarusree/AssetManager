@@ -25,7 +25,8 @@
         <activity android:name=".CheckOut" />
         <activity android:name=".CheckIn" />
         <activity android:name=".AssetAudit" />
-        <activity android:name=".UpdateSettings"></activity>
+        <activity android:name=".UpdateSettings" />
+        <activity android:name=".LoginActivity"></activity>
     </application>
 
 </manifest>
