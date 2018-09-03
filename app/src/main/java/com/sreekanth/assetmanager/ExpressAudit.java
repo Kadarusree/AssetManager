@@ -19,9 +19,9 @@ public class ExpressAudit extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_express_audit);
-        mSpinner = findViewById(R.id.spinner1);
-        String[] years = {"Al-Rajhi Investment", "Al-Rajhi Investment", "Al-Rajhi Investment", "Al-Rajhi Investment"};
+      /*  mSpinner = findViewById(R.id.spinner1);
+        String[] years = {"Al-Rajhi Investment", "In Transit", "Pin Makkah"};
         ArrayAdapter<CharSequence> langAdapter = new ArrayAdapter<CharSequence>(this, R.layout.spinner_drop, years);
-        mSpinner.setAdapter(langAdapter);
+        mSpinner.setAdapter(langAdapter);*/
     }
 }

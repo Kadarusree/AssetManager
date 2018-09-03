@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AssetManager</string>
+    <string name="app_name">ASSET VISIBLITY</string>
 
 
     <string name="audit">AUDIT</string>
@@ -11,6 +11,12 @@
     <string name="settings">SETTINGS</string>
     <string name="logout">LOGOUT</string>
     <string name="confirm_logout">CONFIRM LOGOUT?</string>
+
+
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+
 
 
     <string name="asset_search">ASSET SEARCH</string>
@@ -91,6 +97,13 @@
         <item>Al-Rajhi Investment</item>
         <item>A2</item>
         <item>B</item>
+        <item>C</item>
+    </array>
+
+    <array name="express_audit">
+        <item>Al-Rajhi Investment</item>
+        <item>In Transit</item>
+        <item>Pin Makkah</item>
         <item>C</item>
     </array>
     <string name="next">NEXT</string>
