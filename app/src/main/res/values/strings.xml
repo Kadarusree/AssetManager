@@ -13,9 +13,9 @@
     <string name="confirm_logout">CONFIRM LOGOUT?</string>
 
 
-    <string name="username">USERNAME</string>
-    <string name="password">PASSWORD</string>
-    <string name="login">LOGIN</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="login">SIGNIN</string>
 
 
 
